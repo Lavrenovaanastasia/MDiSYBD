@@ -191,22 +191,22 @@
 
 ### 13) Promocode промокод
 
-•code: string -
+•code: string - уникальный код промокода
 
-•discount: int
+•discount: int - размер скидки, предоставляемый промокодом
 
-### 14) Supplier
+### 14) Supplier - хранит информацию о поставщиках 
 
-•name: string
+• name: string - название  поставщика
 
-•address: string +cars: Cars[1..*]
+• address: string +cars: Cars[1..*] - позволяет  узнать  физическое  местоположение  филиала, в который поставляет данный постащик (один  поставщик  может  поставлять  в разные филиалы)
 
-•phone: string
+• phone: string - телефон  поставщика
 
 
 
-###14) Supply
-
+### 15) Supply 
 
 +supplier: Supplier[1]
+
 +car: Cars[1]
