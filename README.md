@@ -119,17 +119,17 @@
 
 9) News - новости 
 
-+title: string - название новости
+• title: string - название новости
 
-+content: string- содержание новости
+• content: string- содержание новости
 
-+image: imagefile- фотография
+• image: imagefile- фотография
 
-+date: datetimefiled - время создания
+• date: datetimefiled - время создания
 
-Sale
+10) Sale
 
-+data: detetimefield
++data: detetimefield- время 
 +promocode: Promocode[1]
 +user: User[1]
 +department: Departmet
@@ -139,37 +139,37 @@ Sale
 +use_discount: void
 +subtotal: int
 
-Department
+11 )Department
 +no: string
 +address: string +open: timefield +close: timefield 
 
 
 
-DepartmentCar
+12) DepartmentCar
 +department: Departmet
 +car: Car[1]
 +quantity: iny
 
-Cars
+13) Cars
 
 
 +name: string +code: string +instruction: string +description: string +photo: imagefield +categories: Categories+ +suppliers: Suppliers
 +get_absolute_url: string +_str_: string
 
 
-Categories
+14) Categories
 
 +name: string
 
 
-Promocode
+15) Promocode
 
 +code: string
 +discount: int
 
 
 
-Supplier
+16) Supplier
 
 
 +name: string
@@ -178,7 +178,7 @@ Supplier
 
 
 
-Supply
+17) Supply
 
 
 +supplier: Supplier[1]
