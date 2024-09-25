@@ -145,20 +145,27 @@
  
 • use_discount: void -  функция, которая применяет скидку к цене
 
-+subtotal: int -  целочисленный тип данных, хранящий итоговую стоимость покупки
+•subtotal: int -  целочисленный тип данных, хранящий итоговую стоимость покупки
 
-11 )Department
-+no: string
-+address: string +open: timefield +close: timefield 
+11 ) Department - хранит информацию об отделах
 
+•no: string - уникальный номер (или идентификатор) отдела
 
+•address: string - адрес, где расположен отдел
 
-12) DepartmentCar
-+department: Departmet
-+car: Car[1]
-+quantity: iny
+•open: timefield - время открытия отдела
 
-13) Cars
+•close: timefield - время закрытия отдела
+
+12) DepartmentCar - хранит информацию о количестве услуг каждого типа
+    
++department: Departmet - ссылка на запись в таблице "Departmet". Это поле указывает на отдел, в котором предоставляется та или иная услуга
+
++car: Car[1] - ссылка на запись в таблице "Car".  Это поле указывает на тип автомобиля (модель, марка, год выпуска и т.д.),  количество которого  указано  в  таблице.  "[1]" означает, что  в  таблице  "DepartmentCar"  для  каждого отдела  указано  только  одно  количество  для  каждого типа  автомобиля
+
++quantity: iny - целое число - количество услуг  указанного типа  в  отделе.
+
+14) Cars
 
 
 +name: string +code: string +instruction: string +description: string +photo: imagefield +categories: Categories+ +suppliers: Suppliers
