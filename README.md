@@ -253,4 +253,5 @@
 
 • car: Cars[1] - ссылка на запись в таблице "Cars".  Это  поле  указывает  на  конкретный  тип  деталей,  который  поставляет  поставщик.  "[1]" означает, что  для  каждой  записи  в  таблице  "Supply"  указан  только  один  тип  услуг
 
-![image](https://github.com/user-attachments/assets/e98d53e1-59bf-48eb-b764-ea933cd25a3e)
+![Sxema](https://github.com/user-attachments/assets/fe4ec62c-26ab-4ba8-a153-36a1a4fc7e7a)
+
