@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "L6": {
+      "commandName": "Project",
+      "sqlDebugging": true
+    }
+  }
+}
